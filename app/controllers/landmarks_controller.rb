@@ -3,5 +3,7 @@ class LandmarksController < ApplicationController
     "here are all the figures"
   end
 
-  get 
+  get '/figures/new' do
+    "here's a new figure"
+  end
 end
