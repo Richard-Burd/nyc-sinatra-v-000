@@ -1,5 +1,7 @@
 class LandmarksController < ApplicationController
-  get '/figures' do 
-    "here I am"
-  end 
+  get '/figures' do
+    "here are all the figures"
+  end
+
+  get 
 end
