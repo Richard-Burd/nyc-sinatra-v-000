@@ -11,7 +11,9 @@ class LandmarksController < ApplicationController
     "there is the (params[:id]) you're looking for"
   end
 
-  get '/figures/:id/edit' do 
+  get '/figures/:id/edit' do
     "time to edit this one: (params[:id])"
-  end 
+  end
+
+  
 end
