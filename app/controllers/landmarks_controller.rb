@@ -6,4 +6,8 @@ class LandmarksController < ApplicationController
   get '/figures/new' do
     "here's a new figure"
   end
+
+  get '/figures/:id' do 
+    "there is the (params[:id]) you're looking for"
+  end 
 end
